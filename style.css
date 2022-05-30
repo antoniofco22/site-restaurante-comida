@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kole ss,Arial, Helvetica, sans-serif;
+   }
+
+
+@font-face {
+    font-family: Kole ss;
+        src: url(font/nicolassfonts_-_kole-extralight-webfont.woff);
+  }
+  
+h1{
+    word-break: normal;
+    width: 3em;
+    font-size: 7rem;
+font-weight: bold;   
+color: #3e603b;
+margin: 30vh 0px 0px 12vh;
+}
+#front p{
+    margin: 0vh 0px 0px 12vh;
+    font-size: 1.4rem;
+}
+    
+
+nav{
+   
+    background: #3e603b;
+    height: 100%;
+    position: fixed;
+    width: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/*
+.menu-nav{
+    margin-top: 40vh;
+}*/
+
+
+
+
+#front{
+    word-break: normal;
+}
+#sec1{
+    display: flex;
+    flex-direction: row;
+    background-image: url(imagens/Untitled-1.svg) ;
+   
+    background-repeat: no-repeat, repeat;
+    background-position: 75% 19%;
+}
+aside{
+    right: 0;
+    fill: #949494;
+     height: 100%;
+    position: fixed;
+    width: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    
+}
+#sec2{
+    width: 51%;
+    margin: auto;
+    padding: 15vh;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5em;
+}
+.paragrafo-references{
+    font-size: 0.7em;
+    text-indent: 4em;
+}
+.corp{
+    display: flex;
+    flex-direction: row;
+    width: 72.05882352941176%;
+    margin: auto;
+    padding: 10vh;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.7em;
+
+}
+.corp img{
+    width: 50%;
+}
+.text{
+    width: 30%;
+    margin: 5%;
+}
+.subtitle{
+    font-size: 1.4em;
+    
+}
+.services{
+    margin-top: 10%;
+    font-size: 0.8em;
+}
+.subtitle, .services{
+    text-decoration: none;
+    color: #3e603b;
+    font-weight: bold;
+
+}
+.text p{
+    padding: 5% 0 10% 0;
+}
+
+
+
+@media only screen and (max-width: 767px){
+        
+  
+}
